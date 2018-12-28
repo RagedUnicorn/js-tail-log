@@ -1,0 +1,1 @@
+{"patterns":[{"name":"foo","expr":"(test)","color":"\u001b[35m"},{"name":"bar","expr":"(test)","color":"\u001b[35m"}]}

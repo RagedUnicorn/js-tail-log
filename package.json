@@ -1,0 +1,31 @@
+{
+  "name": "js-tail-log",
+  "version": "0.0.2",
+  "description": "A tail -f like implementation in javascript with included colorizing support",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RagedUnicorn/js-tail-log"
+  },
+  "keywords": [
+    "log colorizer tail"
+  ],
+  "author": "Wiesendanger Michael <michael.wiesendanger@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/RagedUnicorn/js-tail-log/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.2"
+  },
+  "private": false,
+  "dependencies": {
+    "commander": "~2.0.0"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "jstail": "lib/tail.js"
+  }
+}
