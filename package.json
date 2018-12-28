@@ -1,6 +1,6 @@
 {
   "name": "js-tail-log",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A tail -f like implementation in javascript with included colorizing support",
   "repository": {
     "type": "git",
